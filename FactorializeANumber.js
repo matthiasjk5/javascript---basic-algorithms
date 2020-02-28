@@ -10,12 +10,10 @@
 
 function factorialize(num) {
   let result = 1;
-  if (num == 0 || num == 1) return 1;
+  if (num == 0) return 1;
   else {
     for (let i = 1; i <= num; i++) {
       result = result * i;
-      console.log(`result: ${result}`);
-      console.log(`i: ${i}`);
     }
     return result;
   }
