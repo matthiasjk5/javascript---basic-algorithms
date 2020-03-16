@@ -17,8 +17,27 @@
 
 // test();
 
-var test = () => {
-  console.log(this);
-};
+// var test = () => {
+//   console.log(this);
+// };
 
-test();
+// test();
+
+// let arr = [1, 3, 5, 7, 9];
+
+// arr.forEach(el => {
+//   console.log(el);
+// });
+
+// arr.map(el => {
+//   console.log(el);
+// });
+
+let arr = ['foo', 'hello', 'diamond'];
+let arr2 = [];
+
+arr.map(str => {
+  arr2.push(str.length);
+});
+
+console.log(arr2);
