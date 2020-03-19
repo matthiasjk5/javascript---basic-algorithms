@@ -3,8 +3,4 @@ function factorialize(num) {
   return num * factorialize(num - 1);
 }
 
-functino factorialize(num) {
-  return 1;
-}
-
 console.log(factorialize(5));
