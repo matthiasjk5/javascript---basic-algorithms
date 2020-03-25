@@ -1,5 +1,8 @@
-function confirmEnding(str, target) {
-  return str.substring(str.length - target.length) === target;
-}
+// function confirmEnding(str, target) {
+//   return str.substring(str.length - target.length) === target;
+// }
 
-console.log(confirmEnding('Bastian', 'n'));
+let str = 'hello';
+console.log(str.slice(1, 3));
+
+// console.log(confirmEnding('Bastian', 'an'));
